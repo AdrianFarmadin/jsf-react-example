@@ -1,0 +1,16 @@
+<pretty-config xmlns="http://ocpsoft.org/schema/rewrite-config-prettyfaces"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://ocpsoft.org/schema/rewrite-config-prettyfaces
+                      http://ocpsoft.org/xml/ns/prettyfaces/rewrite-config-prettyfaces.xsd">
+
+    <url-mapping id="login">
+        <pattern value="/login" />
+        <view-id value="/auth/login.xhtml" />
+    </url-mapping>
+
+    <url-mapping id="product-list-react">
+        <pattern value="/product-list-react" />
+        <view-id value="/product-list-react.xhtml" />
+    </url-mapping>
+
+</pretty-config>
